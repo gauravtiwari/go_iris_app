@@ -17,7 +17,7 @@ func (h Hello) ServeHTTP(
 func main() {
 	var h Hello
 	err := http.ListenAndServe("localhost:4000", h)
-  if err != nil {
+	if err != nil {
 		log.Fatal(err)
 	}
 }
