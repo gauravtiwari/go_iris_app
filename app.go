@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/kataras/iris"
-)
+import "github.com/kataras/iris/v12"
 
 // Serve using a host:port form.
 var addr = iris.Addr("localhost:3000")
